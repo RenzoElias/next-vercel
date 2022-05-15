@@ -25,11 +25,13 @@ export const NavBar = () => {
   return (
     // <nav style={{ marginRight: "10px" }}>
     <nav className={styles['menu-container']}>
+
       {
         menuItems.map( ({text, href}) => (
           <ActiveLink key={href} text={text} href={href} />
         ))
       }
+
       {/*
       <ActiveLink text="Home" href='/' />
       <ActiveLink text="About" href='/about' />
