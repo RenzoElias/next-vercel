@@ -1,5 +1,5 @@
 import React from "react";
-import styles from './Navbar.module.scss';
+import styles from './NavBar.module.scss';
 import { ActiveLink } from "../ActiveLink";
 
 const menuItems = [
