@@ -1,9 +1,9 @@
 import { FC } from "react";
 
-import Head from 'next/head'
+import Head from 'next/head';
 
-import { NavBar } from '../Navbar'
-import styles from './MainLayout.module.scss'
+import styles from './MainLayout.module.scss';
+import { NavBar } from "../NavBar";
 
 export const MainLayout : FC = ({ children }) => {
   return (
